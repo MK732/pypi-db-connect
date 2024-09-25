@@ -14,5 +14,8 @@ setuptools.setup (
     python_requires=">=3.9",
     install_requires=["asyncpg", "asyncio", "python-dotenv"],
     packages=setuptools.find_packages(),
+    extras_require={
+        "dev" : ["pytest>=7.0", "twine>=4.0.2"]
+    },
     include_package_data=True,
 )

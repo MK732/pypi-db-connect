@@ -10,5 +10,8 @@ Description-Content-Type: text/markdown
 Requires-Dist: asyncpg
 Requires-Dist: asyncio
 Requires-Dist: python-dotenv
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: twine>=4.0.2; extra == "dev"
 
 # PyPI FTConnect DB connection
