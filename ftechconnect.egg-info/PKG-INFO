@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ftechconnect
+Version: 0.0.1
+Summary: Small package that has db connection functionality.
+Home-page: https://www.github.com/mk732
+Author: MK732
+License: The Unlicense
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: asyncpg
+Requires-Dist: asyncio
+Requires-Dist: python-dotenv
+
+# PyPI FTConnect DB connection
