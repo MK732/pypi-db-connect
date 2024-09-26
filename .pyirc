@@ -1,0 +1,9 @@
+[distutils]
+index-servers =
+    cloudsmith
+
+
+[cloudsmith]
+repository: https://dl.cloudsmith.io/<organization>/<repository>/python/
+username: __token__
+password: fe5344b414533bffd959a172ffec9ff3b6c6f211
