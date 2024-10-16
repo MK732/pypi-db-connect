@@ -24,8 +24,8 @@ def credentials() -> Dict[str, str]:
         'database': os.getenv("POSTGRES_DATABASE"),
         'user': os.getenv("POSTGRES_USER"),
         'password': str(os.getenv("POSTGRES_PASSWORD")),
-        'port': str(os.getenv("POSTGRES_PORT"))
-        'ssl': 'require'# Ensure port is string for asyncpg.connect
+        'port': str(os.getenv("POSTGRES_PORT")),
+        'ssl': 'require'
     }
 
     # Log the credentials being used (excluding the password for security)
